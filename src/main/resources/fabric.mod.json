@@ -2,13 +2,12 @@
   "schemaVersion": 1,
   "id": "bidmod",
   "version": "${version}",
-  "name": "Bidding",
-  "description": "Server-wide auctions with a HUD card.",
+  "name": "Bid HUD",
+  "description": "Client-only auction HUD for any server.",
   "authors": ["you"],
   "license": "MIT",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": ["com.bidmod.BidMod"],
     "client": ["com.bidmod.BidModClient"]
   },
   "depends": {
